@@ -5,6 +5,9 @@ export * from './Game_Battler';
 export * from './Game_Actor';
 export * from './Game_Enemy';
 
+export * from './Game_CharacterBase';
+export * from './Game_Character';
+
 export * from './Game_Unit';
 export * from './Game_Party';
 export * from './Game_Troop';

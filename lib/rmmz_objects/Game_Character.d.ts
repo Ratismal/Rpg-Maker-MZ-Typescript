@@ -1,0 +1,56 @@
+import { Game_CharacterBase } from '.';
+
+declare namespace Game_Character {
+  export enum Route {
+    END = 0,
+    MOVE_DOWN = 1,
+    MOVE_LEFT = 2,
+    MOVE_RIGHT = 3,
+    MOVE_UP = 4,
+    MOVE_LOWER_L = 5,
+    MOVE_LOWER_R = 6,
+    MOVE_UPPER_L = 7,
+    MOVE_UPPER_R = 8,
+    MOVE_RANDOM = 9,
+    MOVE_TOWARD = 10,
+    MOVE_AWAY = 11,
+    MOVE_FORWARD = 12,
+    MOVE_BACKWARD = 13,
+    JUMP = 14,
+    WAIT = 15,
+    TURN_DOWN = 16,
+    TURN_LEFT = 17,
+    TURN_RIGHT = 18,
+    TURN_UP = 19,
+    TURN_90D_R = 20,
+    TURN_90D_L = 21,
+    TURN_180D = 22,
+    TURN_90D_R_L = 23,
+    TURN_RANDOM = 24,
+    TURN_TOWARD = 25,
+    TURN_AWAY = 26,
+    SWITCH_ON = 27,
+    SWITCH_OFF = 28,
+    CHANGE_SPEED = 29,
+    CHANGE_FREQ = 30,
+    WALK_ANIME_ON = 31,
+    WALK_ANIME_OFF = 32,
+    STEP_ANIME_ON = 33,
+    STEP_ANIME_OFF = 34,
+    DIR_FIX_ON = 35,
+    DIR_FIX_OFF = 36,
+    THROUGH_ON = 37,
+    THROUGH_OFF = 38,
+    TRANSPARENT_ON = 39,
+    TRANSPARENT_OFF = 40,
+    CHANGE_IMAGE = 41,
+    CHANGE_OPACITY = 42,
+    CHANGE_BLEND_MODE = 43,
+    PLAY_SE = 44,
+    SCRIPT = 45,
+  }
+}
+
+declare class Game_Character extends Game_CharacterBase {
+  // TODO
+}
